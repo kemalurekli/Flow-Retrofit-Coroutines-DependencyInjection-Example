@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface CryptoAPI {
 
-    @GET("kemalurekli/flow-example/crypto.json")
+    @GET("kemalurekli/Flow-Retrofit-Coroutines-DependencyInjection-Example/main/crypto.json")
     suspend fun getCryptos(
 
     ) : Response<List<CryptoModel>>
